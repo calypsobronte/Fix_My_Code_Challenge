@@ -1,8 +1,7 @@
 ###
 #
-#  Sort integer arguments (ascending) 
-#  
-#   Change in line 24 result.insert(i - 1, i_arg)
+#  Sort integer arguments (ascending)
+#
 ###
 
 result = []
