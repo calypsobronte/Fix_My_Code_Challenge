@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" I love geometry! """
 
 
 class square():
@@ -18,14 +19,13 @@ class square():
     def PermiterOfMySquare(self):
         """ perimeter """
         return (self.width * 2) + (self.height * 2)
-
     def __str__(self):
         """ print square """
         return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
-
+    """ exec """
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
