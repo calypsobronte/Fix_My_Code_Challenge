@@ -3,12 +3,12 @@
 
 
 class Square():
-    """ class """
+    """ class ssssssssss"""
     width = 0
     height = 0
 
     def __init__(self, *args, **kwargs):
-        """ Init square """
+        """ Init square ssssss"""
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -17,7 +17,7 @@ class Square():
         return self.width * self.height
 
     def permiter_of_my_square(self):
-        """ perimeter """
+        """ perimeter sssssss"""
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
@@ -26,7 +26,7 @@ class Square():
 
 
 if __name__ == "__main__":
-    """ exec """
+    """ exec sssssssssss"""
     s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
